@@ -2,12 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from sys import stdout
-from argent import Parser
 from xerox import copy, paste
 from clint import piped_in
 
 
-@Parser.from_function
 def xi():
     """Copy to clipboard from stdin or paste to sdout."""
     data = piped_in()
@@ -19,4 +17,4 @@ def xi():
         stdout.write(paste())
 
 
-xi.command_line()
+xi()
