@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name = "xi",
-    version = "0.0dev",
+    version = "1.0dev",
     author = "startling",
     author_email = "tdixon51793@gmail.com",
     description = "A little script for copying and pasting through unix pipes.",
